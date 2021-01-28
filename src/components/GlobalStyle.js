@@ -1,8 +1,7 @@
-// importeer createGlobalStyle en css reset
 import { createGlobalStyle } from "styled-components";
 import reset from "reset-css";
 
-// We kunnen onze CSS schrijven als een JS template literal
+
 export default createGlobalStyle`
   ${reset}
 :root {

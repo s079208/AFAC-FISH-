@@ -1,5 +1,5 @@
 import React from "react";
-import { StrictMode } from "react";
+
 
 // import global styles
 import GlobalStyle from "./components/GlobalStyle";

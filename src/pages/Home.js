@@ -12,7 +12,8 @@ const NietAanwezig = styled.p`
 `;
 
 const Li = styled.li`
-  color: blue;
+  list-style-type: square;
+  margin-left:5rem;
   margin-bottom: 1rem;
 `;
 
@@ -34,7 +35,7 @@ export default function Home() {
             <Li>Records</Li>
           </ol>
       </Aanwezig>
-      <NietAanwezig>Dit is nog niet aanwezig
+      <NietAanwezig>Dit is nog niet aanwezig -  hier wordt aangewerkt.
           <ol>
             <Li>Winkels</Li>
             <Li>Visplekken</Li>

@@ -1,6 +1,5 @@
 import React from "react";
-import Button from "../components/Button";
-import styled from "styled-components";
+
 
 export default function Winkel() {
   return (

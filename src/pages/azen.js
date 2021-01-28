@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "../components/Button";
 
 import styled from "styled-components";
 
@@ -15,7 +14,6 @@ const Lijst = styled.ul`
 `;
 
 function ListItem(props) {
-  /*return <li><img src={props.value}/></li>;*/
   return (
     <li>
       <Image src={props.value}></Image>
